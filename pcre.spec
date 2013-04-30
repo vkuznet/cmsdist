@@ -1,7 +1,6 @@
 ### RPM external pcre 7.9
 Source: http://downloads.sourceforge.net/%n/%n-%{realversion}.tar.bz2
 Requires: bz2lib
-
 %if "%{?cms_cxx:set}" != "set"
 %define cms_cxx c++ -std=c++0x
 %endif
