@@ -9,9 +9,8 @@ Requires: python PHEDEX-lifecycle
 %build
 
 %install
-cd DAS
+cd LifeCycleDAS
 mkdir -p %i/$PYTHON_LIB_SITE_PACKAGES/LifeCycleDAS
-touch %i/$PYTHON_LIB_SITE_PACKAGES/LifeCycleDAS/__init__.py
 cp -r *.py utils %i/$PYTHON_LIB_SITE_PACKAGES/LifeCycleDAS
 
 # Generate dependencies-setup.{sh,csh} so init.{sh,csh} picks full environment.
