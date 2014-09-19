@@ -98,7 +98,7 @@ Requires: fftw3-toolfile
 Requires: fftjet-toolfile
 Requires: lapack-toolfile
 Requires: pyminuit2-toolfile
-Requires: professor-toolfile
+#equires: professor-toolfile
 Requires: py2-ipython-toolfile
 Requires: xz-toolfile
 Requires: protobuf-toolfile
