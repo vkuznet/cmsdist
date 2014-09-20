@@ -45,7 +45,7 @@ Requires: file
 %endif
 
 %if "%{?usercxxflags:set}" == "set"
-%define extraOptions USER_CXXFLAGS='"%{usercxxflags}"'
+%define extraOptions USER_CXXFLAGS='%{usercxxflags}'
 %else
 %define extraOptions %{nil}
 %endif
